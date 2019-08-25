@@ -1,0 +1,113 @@
+<?php
+/**
+ * @package   T3 Blank
+ * @copyright Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
+ * @license   GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die;
+?>
+
+<!-- FOOTER -->
+<div class="pmh-sn">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-3  col-md-3 pmh-social">
+				<jdoc:include type="modules" name="<?php $this->_p('pmh-social') ?>" style="T3Xhtml" />
+			</div>
+			<div class="col-xs-12 col-sm-3  col-md-3 pmh-newsletter-title">
+				<jdoc:include type="modules" name="<?php $this->_p('pmh-newsletter-title') ?>" style="T3Xhtml" />
+			</div>
+			<div class="col-xs-12 col-sm-6  col-md-6 pmh-newsletter">
+				<jdoc:include type="modules" name="<?php $this->_p('pmh-newsletter') ?>" style="T3Xhtml" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="pmh-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-3  col-md-3">
+				<jdoc:include type="modules" name="<?php $this->_p('footer-1') ?>" style="html5" />
+			</div>
+			<div class="col-xs-12 col-sm-4  col-md-4">
+				<jdoc:include type="modules" name="<?php $this->_p('footer-2') ?>" style="html5" />
+			</div>
+			<div class="col-xs-12 col-sm-2  col-md-2">
+				<jdoc:include type="modules" name="<?php $this->_p('footer-3') ?>" style="html5" />
+			</div>
+			<div class="col-xs-12 col-sm-3  col-md-3">
+				<jdoc:include type="modules" name="<?php $this->_p('footer-4') ?>" style="html5" />
+			</div>
+		</div>
+	</div> 
+</div> 
+<div class="copyright">
+		<div class="container">
+			<div class="row copyright">
+				<div class="col-xs-12 col-sm-12  col-md-12">
+					<jdoc:include type="modules" name="<?php $this->_p('footer') ?>" style="html5" />
+				</div>
+			</div>
+		</div>
+</div>
+<?php include 'copyright.php'; ?>
+<!-- //FOOTER -->
+<div id="hidden">
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956200276;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/956200276/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</div>
+<script>
+
+  $(".pdt-10").eq(0).find("img").attr("src","http://phumyhung.com.vn/images/riverpark-premier.jpg");
+  $(".pdt-10").eq(0).find("a").attr("href","http://phumyhung.com.vn/riverparkpremier/vn/");
+  $(".pdt-10").eq(0).find("a").attr("title","Căn hộ Riverpark Premier");
+  $(".pdt-10").eq(0).find("figcaption").html("Căn hộ Riverpark Premier");
+
+  $(".duan-4").eq(2).find("img").attr("src","http://phumyhung.com.vn/images/namphuc-thumb.jpg");
+  $(".duan-4").eq(2).find("a").attr("href","http://phumyhung.com.vn/vn/lejardin");
+  $(".duan-4").eq(2).find("a").attr("title","Căn hộ Nam Phúc - Le Jardin");
+  $(".duan-4").eq(2).find("figcaption").html("Căn hộ Nam Phúc - Le Jardin");
+
+  $(function() {  
+  //console.log("test" + $("#rstbox_2").find("img").attr("src") );
+      $("#rstbox_2").find("img").click(function(){
+          location.href= "http://phumyhung.com.vn/riverparkpremier/vn/";
+      });
+  });
+</script>
+<script type="text/javascript" src="https://adi.admicro.vn/adt/banners/nam2015/2033/retargetting.7.js"></script>
+<script id="adm-rem" src="http://adi.vcmedia.vn/adt/cpc/tvcads/files/js/remaketing/remarketing.js?campid=53"></script>
+<script type="text/javascript">
+  (function () {
+  var _eclickq = window._eclickq || (window._eclickq = []);
+  if (!_eclickq.loaded) {
+  var eclickTracking = document.createElement('script');
+  eclickTracking.async = true;
+  eclickTracking.src = ('https:'==document.location.protocol?'https:':'http:')+'//s.eclick.vn/delivery/retargeting.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(eclickTracking, s);
+  _eclickq.loaded = true;
+
+  }
+  _eclickq.push(['addPixelId', 11292]);
+  })();
+  window._eclickq = window._eclickq || [];
+  window._eclickq.push(['track', 'PixelInitialized', {}]);
+</script>
